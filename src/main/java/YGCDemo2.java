@@ -9,7 +9,7 @@ public class YGCDemo2 {
     static class Foo {
         private int i;
         @Override
-        protected void finalize() throws Throwable {
+        protected void finalize() {
             i++;
         }
     }
@@ -19,7 +19,7 @@ public class YGCDemo2 {
             while (true) {
                 fill(4);
                 try {
-                    TimeUnit.MILLISECONDS.sleep(50);
+                    TimeUnit.MILLISECONDS.sleep(20);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }

@@ -6,8 +6,6 @@ public class YGCDemo1 {
     private static final int _1MB = 1024 * 1024;
     private static List<byte[]> dataList = new ArrayList<>();
 
-    // java -server -Xmn400M -XX:SurvivorRatio=8 -Xms1g -Xmx1g -XX:+PrintGCDetails -XX:+PrintGCDateStamps
-    // -XX:+UseParNewGC -XX:+UseConcMarkSweepGC  YGCDemo1
     // |320m|40m|40m|600m|
     public static void main(String[] args) throws IOException {
         // 生成4M的永久内存

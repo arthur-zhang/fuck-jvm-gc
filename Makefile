@@ -1,7 +1,7 @@
 
 CmsGCDemo0:
 	#mvn clean package -DskipTests
-	/Users/arthur/cvt_dev/jvm/jdk-debug/jvm_home/jdk8u322-b06/Contents/Home/bin/java -server -Xms2g -Xmx2g -Xmn600m -XX:+PrintGCDetails -XX:+PrintGCDateStamps  -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -jar target/demo1-0.0.1-SNAPSHOT.jar
+	/Users/arthur/cvt_dev/jvm/jdk-debug/jvm_home/jdk8u322-b06/Contents/Home/bin/java -server -Xms2g -Xmx2g -Xmn600m -XX:+PrintGCDetails -XX:+PrintGCDateStamps  -XX:+UseConcMarkSweepGC -jar target/demo1-0.0.1-SNAPSHOT.jar
 
 
 CmsGCDemo0_2:

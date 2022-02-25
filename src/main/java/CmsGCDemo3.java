@@ -4,6 +4,7 @@
 public class CmsGCDemo3 {
     private static final int _1MB = 1024 * 1024;
 
+    // -Xmx2000m -Xms2000m -Xmn1000m
     public static void main(String[] args) throws Exception {
         System.out.println("allocate 200M");
         byte[] b1 = new byte[200 * _1MB];
@@ -19,7 +20,6 @@ public class CmsGCDemo3 {
 
         System.out.println("allocate 400M");
         byte[] b4 = new byte[400 * _1MB];
-        System.out.println("4");
         System.in.read();
     }
 }
